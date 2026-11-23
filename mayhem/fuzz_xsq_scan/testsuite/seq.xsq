@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2024.01</version>
+    <mediaFile>C:\Show\Audio\song &amp; dance.mp3</mediaFile>
+    <sequenceTiming>50 ms</sequenceTiming>
+  </head>
+  <ElementEffects/>
+</xsequence>

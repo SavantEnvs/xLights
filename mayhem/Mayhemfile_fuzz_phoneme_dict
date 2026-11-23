@@ -1,0 +1,9 @@
+project: savantenvs/xLights
+target: fuzz_phoneme_dict
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_phoneme_dict/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_phoneme_dict
+    libfuzzer: true
+    timeout: 10

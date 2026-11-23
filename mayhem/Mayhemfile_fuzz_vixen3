@@ -1,0 +1,9 @@
+project: savantenvs/xLights
+target: fuzz_vixen3
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_vixen3/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_vixen3
+    libfuzzer: true
+    timeout: 10

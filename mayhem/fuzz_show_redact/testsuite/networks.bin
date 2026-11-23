@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Networks computer="PC">
+<Controller Name="F16" Type="Ethernet" IP="192.168.1.50" Protocol="E131" Id="1" Vendor="Falcon" Model="F16V4">
+<network NetworkType="E131" ComPort="192.168.1.50" BaudRate="1" MaxChannels="510" NumUniverses="1"/>
+</Controller>
+<Controller Name="Ser" Type="Serial" Port="/dev/ttyUSB0" Protocol="DMX"><network NetworkType="DMX" ComPort="/dev/ttyUSB0" MaxChannels="512"/></Controller>
+</Networks>

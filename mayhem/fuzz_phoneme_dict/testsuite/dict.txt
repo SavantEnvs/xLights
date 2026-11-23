@@ -1,0 +1,20 @@
+## comment
+;; another
+HELLO HH AH0 L OW1
+WORLD W ER1 L D
+JINGLE JH IH1 NG G AH0 L
+
+%%
+# map
+. AI
+HH etc
+AH0 AI
+L L
+OW1 O
+W WQ
+ER1 E
+D etc
+JH etc
+IH1 AI
+NG etc
+G etc
